@@ -15,4 +15,11 @@
 module.exports = {
   // See <http://truffleframework.com/docs/advanced/configuration>
   // to customize your Truffle configuration!
+  //truffle.config.js -- using solc in windows to avoid comfilct with different envoriment
+  // solc:{
+  //   optimizer:{
+  //     enabled: true,
+  //     runs: 200
+  //   }
+  // }
 };
